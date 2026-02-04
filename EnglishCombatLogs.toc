@@ -1,0 +1,9 @@
+## Interface: 10900
+## Title: EnglishCombatLogs
+## Notes: Changes combat logs to english.
+## Version: 0.1
+## DefaultState: enabled
+## Author: Emyrk
+## SavedVariablesPerCharacter:
+
+core.lua
