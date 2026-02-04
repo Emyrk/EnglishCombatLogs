@@ -1,5 +1,5 @@
 function LoadEnglishCombatLogs()
-    
+    DEFAULT_CHAT_FRAME:AddMessage("EnglishCombatLogs loaded.")
     COMBATHITABSORBOTHEROTHER = "%s hits %s for %d (%d absorbed).";
     COMBATHITABSORBOTHERSELF = "%s hits you for %d (%d absorbed).";
     COMBATHITABSORBSELFOTHER = "You hit %s for %d (%d absorbed).";
