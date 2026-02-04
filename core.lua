@@ -23,6 +23,15 @@ function LoadEnglishCombatLogs()
     PERIODICAURAHEALSELFOTHER = "%s gains %d health from your %s."; -- Bob gains 10 health from your Rejuvenation.
     PERIODICAURAHEALSELFSELF = "You gain %d health from %s."; -- You gain 10 health from Rejuvenation.
 
+    POWERGAINOTHEROTHER="%s gains %d %s from %s's %s."
+    HEALEDCRITOTHEROTHER = "%s's %s critically heals %s for %d.";
+    HEALEDCRITOTHERSELF = "%s's %s critically heals you for %d.";
+    HEALEDCRITSELFOTHER = "Your %s critically heals %s for %d.";
+    HEALEDCRITSELFSELF = "Your %s critically heals you for %d.";
+    HEALEDOTHEROTHER = "%s's %s heals %s for %d.";
+    HEALEDOTHERSELF = "%s's %s heals you for %d.";
+    HEALEDSELFOTHER = "Your %s heals %s for %d.";
+    HEALEDSELFSELF = "Your %s heals you for %d.";
 
     SPELLCASTGOOTHER = "%s casts %s.";
     SPELLCASTGOOTHERTARGETTED = "%s casts %s on %s.";
