@@ -115,6 +115,9 @@ function LoadEnglishCombatLogs()
     COMBATHITCRITSCHOOLOTHEROTHER="%s crits %s for %d %s damage."
     COMBATHITCRITSCHOOLOTHERSELF="%s crits you for %d %s damage."
     COMBATHITCRITSCHOOLSELFOTHER="You crit %s for %d %s damage."
+    COMBATHITSCHOOLOTHEROTHER="%s hits %s for %d %s damage."
+    COMBATHITSCHOOLOTHERSELF="%s hits you for %d %s damage."
+    COMBATHITSCHOOLSELFOTHER="You hit %s for %d %s damage."
 end
 
 LoadEnglishCombatLogs()
