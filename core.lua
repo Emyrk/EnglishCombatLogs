@@ -150,6 +150,41 @@ function LoadEnglishCombatLogs()
 
     SPELLLOGSELFOTHER="Your %s hits %s for %d."
     SPELLLOGSELFSELF="Your %s hits you for %d."
+
+
+    VSABSORBOTHEROTHER = "%s attacks. %s absorbs all the damage.";
+    VSABSORBOTHERSELF = "%s attacks. You absorb all the damage.";
+    VSABSORBSELFOTHER = "You attack. %s absorbs all the damage.";
+    VSBLOCKOTHEROTHER = "%s attacks. %s blocks.";
+    VSBLOCKOTHERSELF = "%s attacks. You block.";
+    VSBLOCKSELFOTHER = "You attack. %s blocks.";
+    VSDEFLECTOTHEROTHER = "%s attacks. %s deflects.";
+    VSDEFLECTOTHERSELF = "%s attacks. You deflect.";
+    VSDEFLECTSELFOTHER = "You attack. %s deflects.";
+    VSDODGEOTHEROTHER = "%s attacks. %s dodges.";
+    VSDODGEOTHERSELF = "%s attacks. You dodge.";
+    VSDODGESELFOTHER = "You attack. %s dodges.";
+    VSENVIRONMENTALDAMAGE_DROWNING_OTHER = "%s is drowning and loses %d health.";
+    VSENVIRONMENTALDAMAGE_DROWNING_SELF = "You are drowning and lose %d health.";
+    VSENVIRONMENTALDAMAGE_FALLING_OTHER = "%s falls and loses %d health.";
+    VSENVIRONMENTALDAMAGE_FALLING_SELF = "You fall and lose %d health.";
+    VSENVIRONMENTALDAMAGE_FATIGUE_OTHER = "%s is exhausted and loses %d health.";
+    VSENVIRONMENTALDAMAGE_FATIGUE_SELF = "You are exhausted and lose %d health.";
+    VSENVIRONMENTALDAMAGE_FIRE_OTHER = "%s suffers %d points of fire damage.";
+    VSENVIRONMENTALDAMAGE_FIRE_SELF = "You suffer %d points of fire damage.";
+    VSENVIRONMENTALDAMAGE_LAVA_OTHER = "%s loses %d health for swimming in lava.";
+    VSENVIRONMENTALDAMAGE_LAVA_SELF = "You lose %d health for swimming in lava.";
+    VSENVIRONMENTALDAMAGE_SLIME_OTHER = "%s loses %d health for swimming in slime.";
+    VSENVIRONMENTALDAMAGE_SLIME_SELF = "You lose %d health for swimming in slime.";
+    VSEVADEOTHEROTHER = "%s attacks. %s evades.";
+    VSEVADEOTHERSELF = "%s attacks. You evade.";
+    VSEVADESELFOTHER = "You attack. %s evades.";
+    VSIMMUNEOTHEROTHER = "%s attacks but %s is immune.";
+    VSIMMUNEOTHERSELF = "%s attacks but you are immune.";
+    VSIMMUNESELFOTHER = "You attack but %s is immune.";
+    VSPARRYOTHEROTHER = "%s attacks. %s parries.";
+    VSPARRYOTHERSELF = "%s attacks. You parry.";
+    VSPARRYSELFOTHER = "You attack. %s parries.";
 end
 
 LoadEnglishCombatLogs()
