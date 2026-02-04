@@ -33,6 +33,21 @@ function LoadEnglishCombatLogs()
     HEALEDSELFOTHER = "Your %s heals %s for %d.";
     HEALEDSELFSELF = "Your %s heals you for %d.";
 
+    UNITDESTROYEDOTHER = "%s is destroyed.";
+    UNITDIESOTHER = "%s dies.";
+    UNITDIESSELF = "You die.";
+
+    AURAADDEDOTHERHARMFUL = "%s is afflicted by %s."; -- Combat log text for aura events
+    AURAADDEDOTHERHELPFUL = "%s gains %s."; -- Combat log text for aura events
+    AURAADDEDSELFHARMFUL = "You are afflicted by %s."; -- Combat log text for aura events
+    AURAADDEDSELFHELPFUL = "You gain %s."; -- Combat log text for aura events
+    AURACHANGEDOTHER = "%s replaces %s with %s."; -- Combat log text for aura events
+    AURACHANGEDSELF = "You replace %s with %s."; -- Combat log text for aura events
+    AURADISPELOTHER = "%s's %s is removed.";
+    AURADISPELSELF = "Your %s is removed.";
+    AURAREMOVEDOTHER = "%s fades from %s."; -- Combat log text for aura events
+    AURAREMOVEDSELF = "%s fades from you."; -- Combat log text for aura events
+
     SPELLCASTGOOTHER = "%s casts %s.";
     SPELLCASTGOOTHERTARGETTED = "%s casts %s on %s.";
     SPELLCASTGOSELF = "You cast %s.";
