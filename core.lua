@@ -123,6 +123,9 @@ function LoadEnglishCombatLogs()
     SPELLLOGSCHOOLOTHERSELF = "%s's %s hits you for %d %s damage.";
     SPELLLOGSCHOOLSELFOTHER = "Your %s hits %s for %d %s damage.";
     SPELLLOGSCHOOLSELFSELF = "Your %s hits you for %d %s damage.";
+
+    SPELLLOGSELFOTHER="Your %s hits %s for %d."
+    SPELLLOGSELFSELF="Your %s hits you for %d."
 end
 
 LoadEnglishCombatLogs()
