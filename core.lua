@@ -110,6 +110,11 @@ function LoadEnglishCombatLogs()
     VSPARRYOTHEROTHER = "%s attacks. %s parries.";
     VSPARRYOTHERSELF = "%s attacks. You parry.";
     VSPARRYSELFOTHER = "You attack. %s parries.";
+
+
+    COMBATHITCRITSCHOOLOTHEROTHER="%s crits %s for %d %s damage."
+    COMBATHITCRITSCHOOLOTHERSELF="%s crits you for %d %s damage."
+    COMBATHITCRITSCHOOLSELFOTHER="You crit %s for %d %s damage."
 end
 
 LoadEnglishCombatLogs()
