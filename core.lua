@@ -152,6 +152,18 @@ function LoadEnglishCombatLogs()
     SPELLLOGSELFSELF="Your %s hits you for %d."
 
 
+    IMMUNEDAMAGECLASSOTHEROTHER = "%s is immune to %s's %s damage.";
+    IMMUNEDAMAGECLASSOTHERSELF = "You are immune to %s's %s damage.";
+    IMMUNEDAMAGECLASSSELFOTHER = "%s is immune to your %s damage.";
+    IMMUNEOTHEROTHER = "%s hits %s, who is  immune.";
+    IMMUNEOTHERSELF = "%s hits you, but you are immune.";
+    IMMUNESELFOTHER = "You hit %s, who is immune.";
+    IMMUNESELFSELF = "You hit yourself, but you are immune.";
+    IMMUNESPELLOTHEROTHER = "%s is immune to %s's %s.";
+    IMMUNESPELLOTHERSELF = "You are immune to %s's %s.";
+    IMMUNESPELLSELFOTHER = "%s is immune to your %s.";
+    IMMUNESPELLSELFSELF = "You are immune to your %s.";
+
     VSABSORBOTHEROTHER = "%s attacks. %s absorbs all the damage.";
     VSABSORBOTHERSELF = "%s attacks. You absorb all the damage.";
     VSABSORBSELFOTHER = "You attack. %s absorbs all the damage.";
@@ -185,6 +197,20 @@ function LoadEnglishCombatLogs()
     VSPARRYOTHEROTHER = "%s attacks. %s parries.";
     VSPARRYOTHERSELF = "%s attacks. You parry.";
     VSPARRYSELFOTHER = "You attack. %s parries.";
+
+    ERR_COMBAT_DAMAGE_SSI = "%s hits %s for %d damage!"; -- Attacker, target, and damage
+    SPELLLOGCRITSCHOOLOTHEROTHER="%s's %s crits %s for %d %s damage."
+    SPELLLOGCRITSCHOOLOTHERSELF="%s's %s crits %d %s damage."
+    SPELLLOGCRITSCHOOLSELFOTHER="Your %s crits %s for %d %s damage."
+    SPELLLOGCRITSCHOOLSELFSELF="Your %s crits you for %d %s damage."
+    SPELLLOGCRITSELFOTHER="Your %s crits %s for %d."
+    SPELLLOGOTHEROTHER = "%s%s hits %s for %d";
+    SPELLLOGCRITSELFSELF = "Your %s crits you for %d.";
+    SPELLLOGOTHERSELF = "%s%s hits you for %d";
+
+    PARTYKILLOTHER = "%s is slain by %s!";
+
+
 end
 
 LoadEnglishCombatLogs()
